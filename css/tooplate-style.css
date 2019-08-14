@@ -6,7 +6,6 @@ https://www.tooplate.com/view/2115-marvel
 
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 body {
   font-family: "Maven Pro", sans-serif;
@@ -54,13 +53,18 @@ p {
   color: #f70060;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   letter-spacing: -1px;
 }
 
 h1 {
-  color: #212121;
+  color: #213121;
   font-size: 2.8em;
   margin: 24px 0;
 }
@@ -76,7 +80,8 @@ h3 {
 }
 
 h3,
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -116,7 +121,7 @@ b, strong {
 }
 
 .animated-item {
-  color: #2ce8f4;
+  color: #f70060;
 }
 
 .animated-item {
@@ -131,10 +136,10 @@ b, strong {
   left: 0;
   animation: BottomTotop 7s linear infinite 0s;
 }
-.animated-item:nth-child(2n+2) {
+.animated-item:nth-child(2n + 2) {
   animation-delay: 2s;
 }
-.animated-item:nth-child(3n+3) {
+.animated-item:nth-child(3n + 3) {
   animation-delay: 4s;
 }
 
@@ -214,7 +219,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #2ce8f4;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -276,17 +281,17 @@ b, strong {
   right: 6px;
 }
 .color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
+  font-family: "unicons";
+  content: "\ea9f";
   font-size: 30px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
+  font-family: "unicons";
+  content: "\eb65";
   font-size: 30px;
-  color: #ffffff;
+  color: #2ce8f4;
 }
 
 .dark-mode {
@@ -303,12 +308,17 @@ b, strong {
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
-  background: #0d0c15;
+  background: #141414;
   color: #f70060;
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
 .dark-mode .color-mode {
   color: #2ce8f4;
 }
@@ -327,7 +337,7 @@ b, strong {
 }
 .timeline-wrapper:before {
   content: "";
-  background: #474559;
+  background: #141414;
   width: 3px;
   height: 100%;
   position: absolute;
@@ -335,7 +345,7 @@ b, strong {
 }
 
 .timeline-yr {
-  background: #474559;
+  background: #141414;
   border-radius: 100%;
   position: absolute;
   width: 75px;
@@ -358,9 +368,10 @@ b, strong {
   margin-left: 6em;
 }
 .timeline-info small {
-  color: #474559;
+  color: #000;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 1px;
   display: inline-block;
   vertical-align: middle;
   margin-left: 15px;
@@ -377,27 +388,27 @@ b, strong {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  font-family: 'unicons';
+  font-family: "unicons";
   font-size: 100px;
   line-height: normal;
 }
 .owl-carousel .owl-nav .owl-prev:before {
-  content: '\e833';
+  content: "\e833";
   left: -45px;
 }
 .owl-carousel .owl-nav .owl-next:before {
-  content: '\e836';
+  content: "\e836";
   right: -45px;
 }
 
-.owl-theme .owl-nav [class*=owl-] {
+.owl-theme .owl-nav [class*="owl-"] {
   background: none;
   border-radius: 0;
   margin: 0;
   padding: 0;
   font-size: inherit;
 }
-.owl-theme .owl-nav [class*=owl-]:hover {
+.owl-theme .owl-nav [class*="owl-"]:hover {
   color: #2ce8f4;
 }
 .owl-theme .owl-dots .owl-dot {
@@ -407,7 +418,8 @@ b, strong {
   width: 8px;
   height: 8px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background: #5b5b5b;
 }
 
@@ -429,7 +441,8 @@ b, strong {
 .contact-form .form-control:not(textarea) {
   height: 48px;
 }
-.contact-form .form-control:hover, .contact-form .form-control:focus {
+.contact-form .form-control:hover,
+.contact-form .form-control:focus {
   border-color: #2ce8f4;
 }
 .contact-form .submit-btn {
@@ -446,17 +459,18 @@ b, strong {
 }
 
 .contact-info {
-  background: #f70060;
+  background: #000;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
 }
-.contact-info p, .contact-info a {
-  color: #000000;
+.contact-info p,
+.contact-info a {
+  color: #2ce8f4;
 }
 
 .social-links .uil {
-  color: #000000;
+  color: #2ce8f4;
   font-size: 20px;
   display: block;
   margin: 5px 0;
@@ -517,9 +531,9 @@ b, strong {
   }
 }
 @media (max-width: 580px) {
-	.animated-info {
-		min-width: 200px;
-	}
+  .animated-info {
+    min-width: 250px;
+  }
   .animated-item {
     font-size: 30px;
   }
